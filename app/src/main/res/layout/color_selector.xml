@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/selector_left_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_left_24"
+        android:layout_gravity="center_vertical"
+        />
+
+    <View
+        android:id="@+id/selected_color"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_margin="14dp"
+        />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/selector_right_arrow"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_arrow_right_24"
+        android:layout_gravity="center_vertical"/>
+
+    <CheckBox
+        android:id="@+id/color_enabled"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/checkbox_label"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/enabled"
+        />
+
+</merge>

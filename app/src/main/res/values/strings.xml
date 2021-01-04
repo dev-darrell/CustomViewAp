@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CustomView App</string>
+    <string name="enabled">Enabled</string>
+    <string name="open_custom_view">Open CustomV</string>
+</resources>
